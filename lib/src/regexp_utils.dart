@@ -1,4 +1,4 @@
-﻿import 'package:persian_utils/persian_utils.dart';
+﻿import 'package:persian_utils/src/public_methods.dart';
 
 RegExp _matchAllTags = new RegExp(r'<(.|\n)*?>', caseSensitive: false);
 

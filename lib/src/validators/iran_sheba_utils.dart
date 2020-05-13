@@ -1,4 +1,4 @@
-﻿import 'package:persian_utils/persian_utils.dart';
+﻿import 'package:persian_utils/src/public_methods.dart';
 
 RegExp _matchIranSheba = new RegExp(r'IR[0-9]{24}', caseSensitive: false);
 

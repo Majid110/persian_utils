@@ -1,4 +1,4 @@
-import 'package:persian_utils/persian_utils.dart';
+import 'package:persian_utils/src/public_methods.dart';
 
 extension PersianNumber on String {
   /// Converts English digits of a given string to their equivalent Persian digits.

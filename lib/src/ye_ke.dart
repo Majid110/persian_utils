@@ -1,4 +1,4 @@
-﻿import 'package:persian_utils/persian_utils.dart';
+﻿import 'package:persian_utils/src/public_methods.dart';
 
 /// Arabic Ke Char \u0643 = ARABIC LETTER KAF
 final int arabicKeChar = 1603;
