@@ -1,4 +1,7 @@
 # persian_utils
+
+![Dart CI](https://github.com/Majid110/persian_utils/workflows/Dart%20CI/badge.svg)
+
 <div dir="rtl">
   
 persian_utils کتابخانه‌ای است متشکل از متدهای الحاقی کمکی جهت کار با فرهنگ فارسی، در برنامه‌های مبتنی بر Dart و Flutter.
