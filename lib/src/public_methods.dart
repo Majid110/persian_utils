@@ -1,4 +1,4 @@
-RegExp _numeric = new RegExp(r'^-?[0-9]+$');
+RegExp _numeric = RegExp(r'^-?[0-9]+$');
 
 extension PublicMethods on String {
   bool isNullOrEmpty() {

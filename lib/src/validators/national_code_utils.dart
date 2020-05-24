@@ -1,4 +1,4 @@
-﻿import 'package:persian_utils/src/public_methods.dart';
+import 'package:persian_utils/src/public_methods.dart';
 
 extension StringValidating on String {
   bool isValidIranianNationalCode() {
@@ -6,14 +6,13 @@ extension StringValidating on String {
     if (s.isNullOrEmpty()) {
       return false;
     }
-    
+
     s = s.padLeft(10, '0');
 
     const int nationalCodeLength = 10;
     if (s.length != nationalCodeLength) {
       return false;
     }
-
 
     if (!s.isNumber()) {
       return false;

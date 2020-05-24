@@ -1,13 +1,13 @@
 ﻿import 'package:persian_utils/src/public_methods.dart';
 
-RegExp _matchIranianMobileNumber1 = new RegExp(
+RegExp _matchIranianMobileNumber1 = RegExp(
     r'^(((98)|(\+98)|(0098)|0)(9){1}[0-9]{9})+$',
     caseSensitive: false);
 RegExp _matchIranianMobileNumber2 =
-    new RegExp(r'^(9){1}[0-9]{9}$', caseSensitive: false);
+    RegExp(r'^(9){1}[0-9]{9}$', caseSensitive: false);
 RegExp _matchIranianPhoneNumber =
-    new RegExp(r'^[2-9][0-9]{7}$', caseSensitive: false);
-RegExp _matchIranianPostalCode = new RegExp(
+    RegExp(r'^[2-9][0-9]{7}$', caseSensitive: false);
+RegExp _matchIranianPostalCode = RegExp(
     r'\b(?!(\d)\1{3})[13-9]{4}[1346-9][013-9]{5}\b',
     caseSensitive: false);
 
