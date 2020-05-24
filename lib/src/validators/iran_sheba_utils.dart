@@ -1,6 +1,6 @@
 ﻿import 'package:persian_utils/src/public_methods.dart';
 
-RegExp _matchIranSheba = new RegExp(r'IR[0-9]{24}', caseSensitive: false);
+RegExp _matchIranSheba = RegExp(r'IR[0-9]{24}', caseSensitive: false);
 
 extension IranShebaNumber on String {
   /// Validate IBAN (International Bank Account Number, Sheba)

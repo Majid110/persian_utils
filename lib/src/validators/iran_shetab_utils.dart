@@ -1,6 +1,6 @@
 ﻿import 'package:persian_utils/src/public_methods.dart';
 
-RegExp _matchIranShetab = new RegExp(r'[0-9]{16}', caseSensitive: false);
+RegExp _matchIranShetab = RegExp(r'[0-9]{16}', caseSensitive: false);
 
 /// Credit and Debit Card (Shetab) validation
 extension IranShetabNumber on String {
