@@ -13,7 +13,6 @@ void main() {
       expect(false, '1'.isNullOrEmpty());
       expect(false, ' '.isNullOrEmpty());
       expect(false, 'a'.isNullOrEmpty());
-      expect(true, null.isNullOrEmpty());
     });
 
     test('Test isNullOrWhiteSpace', () {
@@ -21,7 +20,6 @@ void main() {
       expect(true, ' '.isNullOrWhiteSpace());
       expect(false, '1'.isNullOrWhiteSpace());
       expect(false, 'a'.isNullOrWhiteSpace());
-      expect(true, null.isNullOrWhiteSpace());
     });
   });
 
