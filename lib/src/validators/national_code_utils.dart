@@ -1,4 +1,4 @@
-import 'package:persian_utils/src/public_methods.dart';
+import '../../src/public_methods.dart';
 
 extension StringValidating on String {
   bool isValidIranianNationalCode() {

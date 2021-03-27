@@ -1,4 +1,4 @@
-﻿import 'package:persian_utils/src/public_methods.dart';
+import '../../src/public_methods.dart';
 
 RegExp _matchIranShetab = RegExp(r'[0-9]{16}', caseSensitive: false);
 

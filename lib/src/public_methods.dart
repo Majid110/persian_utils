@@ -2,11 +2,11 @@ RegExp _numeric = RegExp(r'^-?[0-9]+$');
 
 extension PublicMethods on String {
   bool isNullOrEmpty() {
-    return this?.isEmpty ?? true;
+    return this.isEmpty;
   }
 
   bool isNullOrWhiteSpace() {
-    return this?.trim()?.isEmpty ?? true;
+    return this.trim().isEmpty;
   }
 
   bool isNumber() {

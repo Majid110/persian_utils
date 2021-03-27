@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:persian_utils/persian_utils.dart';
+import '../lib/persian_utils.dart';
 
 void main() {
   group('Public Methods', () {

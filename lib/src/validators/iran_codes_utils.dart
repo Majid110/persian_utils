@@ -1,4 +1,4 @@
-import 'package:persian_utils/src/public_methods.dart';
+import '../../src/public_methods.dart';
 
 RegExp _matchIranianMobileNumber1 =
     RegExp(r'^(((98)|(\+98)|(0098)|0)(9){1}[0-9]{9})+$', caseSensitive: false);

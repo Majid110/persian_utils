@@ -1,4 +1,4 @@
-﻿import 'package:persian_utils/src/public_methods.dart';
+import '../../src/public_methods.dart';
 
 /// Validate IR National Legal Code
 extension IranianNationalLegalCode on String {
