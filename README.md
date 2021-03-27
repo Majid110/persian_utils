@@ -2,42 +2,31 @@
 
 ![Dart CI](https://github.com/Majid110/persian_utils/workflows/Dart%20CI/badge.svg)
 
-<div dir="rtl">
-  
-persian_utils کتابخانه‌ای است متشکل از متدهای الحاقی کمکی جهت کار با فرهنگ فارسی، در برنامه‌های مبتنی بر Dart و Flutter.
-این کتابخانه ترجمه‌ای از کتابخانه [DNTPersianUtils.Core](https://github.com/VahidN/DNTPersianUtils.Core) به زبان Dart می‌باشد.
+persian_utils contains extension methods and validators for working with Persian texts.
+This package is a translation of .Net library [DNTPersianUtils.Core](https://github.com/VahidN/DNTPersianUtils.Core) in Dart.
 
 </div>
 
-لیست متدها و امکانات این کتابخانه
------------------
+## Method list
 
-اعتبارسنج‌ها
------------------
+## Validators
 
+| Method Name                            |                          Example                          | Output |
+| -------------------------------------- | :-------------------------------------------------------: | :----: |
+| Iranian National Code Validator        |         "0010350829".isValidIranianNationalCode()         |  true  |
+| Sheba Number Validator                 | "IR820540102680020817909002".<br>isValidIranShebaNumber() |  true  |
+| Shetab Number Validator                |     "6221061106498670".<br>isValidIranShetabNumber()      |  true  |
+| Iranian Mobile Number Validator        |      "09901464762".<br>isValidIranianMobileNumber()       |  true  |
+| Iranian Phone Number Validator         |        "37236445".<br>isValidIranianPhoneNumber()         |  true  |
+| Iranian Postal Code Validator          |        "1619735744".<br>isValidIranianPostalCode()        |  true  |
+| Persian Number Checker                 |         "۹۹۹۹۹".<br>containsOnlyPersianNumbers()          |  true  |
+| Check Text Contains Farsi              |               "Abc تست".<br>containsFarsi()               |  true  |
+| Check Text Contains Only Farsi Letters |           "تست".<br>containsOnlyFarsiLetters()            |  true  |
+| Iranian National Legal Code Validator  |      "14005893875".isValidIranianNationalLegalCode()      |  true  |
 
-|نام متد/امکانات|مثال|خروجی نمونه|
-| -------| :------: | :------: |
-| بررسی اعتبار کد ملی | "0010350829".isValidIranianNationalCode() | true |
-| بررسی اعتبار کد بانکی شبا | "IR820540102680020817909002".<br>isValidIranShebaNumber() | true |
-| بررسی اعتبار کد بانکی شتاب | "6221061106498670".<br>isValidIranShetabNumber() | true |
-| بررسی اعتبار شماره موبایل | "09901464762".<br>isValidIranianMobileNumber() | true |
-| بررسی اعتبار شماره تلفن | "37236445".<br>isValidIranianPhoneNumber() | true |
-| بررسی اعتبار کد پستی | "1619735744".<br>isValidIranianPostalCode() | true |
-| بررسی اعتبار اعداد تمام فارسی | "۹۹۹۹۹".<br>containsOnlyPersianNumbers() | true |
-| بررسی اعتبار حروف و يا اعداد فارسی بودن تنها قسمتی از متن | "Abc تست".<br>containsFarsi() | true |
-| بررسی اعتبار حروف فارسی بودن تمام متن | "تست".<br>containsOnlyFarsiLetters() | true |
-| بررسی اعتبار شناسه ملی حقوقی | "14005893875".isValidIranianNationalLegalCode() | true |
+## Acknowledgment
 
-
-قدردانی
------------------
-
-<div dir="rtl">
-
-تشکر از آقای
- [وحید نصیری](https://github.com/VahidN)
-  بابت کتابخانه کامل و مفید 
-  [DNTPersianUtils.Core](https://github.com/VahidN/DNTPersianUtils.Core)
-  
-</div>
+Very thanks to
+[Vahid Nasiri](https://github.com/VahidN)
+for his useful library
+[DNTPersianUtils.Core](https://github.com/VahidN/DNTPersianUtils.Core)
